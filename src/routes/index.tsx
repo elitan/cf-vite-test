@@ -7,7 +7,7 @@ export const Route = createFileRoute("/")({
 function HomeComponent() {
   return (
     <div className='p-2'>
-      <h3>Welcome Home!</h3>
+      <h3>Welcome Home TEST!</h3>
       <Link to='/blog'>blog</Link>
       <Link to='/blog/$slug' params={{ slug: "hejsan" }}>
         blog / hejsan
